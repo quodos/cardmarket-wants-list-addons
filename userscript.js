@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         cardmarket.com wants list addons
 // @namespace    http://tampermonkey.net/
-// @version      0.0.1
+// @version      0.0.2
 // @description  Tampermonkey script that adds several additional functionality to cardmarket.com wants lists.
 // @author       Thomas Wilhelm <https://thomaswilhelm.at>
 // @include      https://www.cardmarket.com/en/Magic/MainPage/showWants*
@@ -39,7 +39,6 @@
                 totalPriceWithoutBasics += value;
             }
 
-            const cardName = cells[2].querySelector('a').textContent;
             cardsString += `${amount} ${cardName}\n`;
         });
 
