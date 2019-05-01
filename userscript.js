@@ -64,6 +64,7 @@
         downloadLink.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(cardsString));
         downloadLink.setAttribute('download', 'deck');
         downloadLink.innerHTML = 'Download deck...';
+        downloadLink.style.color = '#ffffff';
         linkContainer.appendChild(downloadLink);
     }
 })();
