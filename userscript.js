@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         cardmarket.com wants list addons
 // @namespace    http://tampermonkey.net/
-// @version      0.0.5
+// @version      0.0.6
 // @description  Tampermonkey script that adds several additional functionality to cardmarket.com wants lists.
 // @author       Thomas Wilhelm <https://thomaswilhelm.at>
 // @include      https://www.cardmarket.com/en/Magic/Wants/*
@@ -62,7 +62,7 @@
         linkContainer.colSpan = "3";
         tfoot.insertBefore(linkContainer, footer);
 
-        const wantsListTitle = document.getElementById('editNameTrigger').textContent.replace('"', '');
+        const wantsListTitle = document.querySelector('.page-title-container h1').textContent;
 
         const downloadLink = document.createElement('a');
         downloadLink.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(cardsString));
