@@ -6,6 +6,7 @@
 // @author       Thomas Wilhelm <https://thomaswilhelm.at>
 // @include      https://www.cardmarket.com/en/Magic/Wants/*
 // @include      https://www.cardmarket.com/de/Magic/Wants/*
+// @include      https://www.cardmarket.com/*/Magic/Wants/*
 // @grant        none
 // ==/UserScript==
 
