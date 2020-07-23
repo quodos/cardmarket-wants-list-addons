@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         cardmarket.com wants list addons
 // @namespace    http://tampermonkey.net/
-// @version      0.0.6
+// @version      0.0.7
 // @description  Tampermonkey script that adds several additional functionality to cardmarket.com wants lists.
 // @author       Thomas Wilhelm <https://thomaswilhelm.at>
 // @include      https://www.cardmarket.com/en/Magic/Wants/*
