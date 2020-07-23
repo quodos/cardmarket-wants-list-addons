@@ -7,6 +7,7 @@
 // @include      https://www.cardmarket.com/en/Magic/Wants/*
 // @include      https://www.cardmarket.com/de/Magic/Wants/*
 // @include      https://www.cardmarket.com/*/Magic/Wants/*
+// @updateURL    https://raw.githubusercontent.com/quodos/cardmarket-wants-list-addons/master/userscript.js
 // @grant        none
 // ==/UserScript==
 
